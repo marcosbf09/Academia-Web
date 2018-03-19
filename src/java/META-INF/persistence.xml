@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="AcademiaPU" transaction-type="RESOURCE_LOCAL">
+    <non-jta-data-source>java:app/web</non-jta-data-source>
+    <class>academia.Aluno</class>
+    <class>academia.Equipamento</class>
+    <class>academia.Fornecedor</class>
+    <class>academia.Funcionario</class>
+    <class>academia.Professor</class>
+    <class>academia.Administrador</class>
+    <class>academia.Secretaria</class>
+    <class>academia.Produto</class>
+    <class>academia.Pessoa</class>
+    <class>academia.Atividade</class>
+    <class>academia.Mensalidade</class>
+    <class>academia.Salario</class>
+    <class>academia.Turma</class>
+    <class>academia.Venda</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.schema-generation.database.action" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

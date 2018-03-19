@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<link rel="icon" href="img/icon2.png">
+
+		<title>Cadastro de Usuário</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+	
+	<body class="body-cadastro">
+
+		<div style="margin-top:50px;" class="mainbox col-md-7 col-md-offset-2 col-sm-8 col-sm-offset-2">    
+		<div class="row">
+			<form action="index.html" method="GET">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<center><h1 class="panel-title">Cadastro de Usuário</h1></center>
+					</div>
+						<div class="panel-body">
+							<div class="input-group">
+								<span class="input-group-addon" id="nome1">Primeiro nome</span>
+								<input type="text" class="form-control" required autofocus name="nome">
+							</div><br>
+							<div class="input-group">
+								<span class="input-group-addon" id="nome2">Sobrenome</span>
+								<input type="text" class="form-control" required name="sobrenome">
+							</div><br>
+							<div class="input-group">
+								<span class="input-group-addon" id="email">Email</span>
+								<input type="text" class="form-control" required name="email">
+							</div><br>
+							<div class="input-group">
+								<span class="input-group-addon" id="pass">Senha</span>
+								<input type="password" class="form-control" required name="senha">
+								<span class="input-group-addon" id="pass2">Confirmar senha</span>
+								<input type="password" class="form-control" required>
+
+							</div>
+							<br> 
+							<center>
+								<button type="submit" class="btn btn-lg btn-success">Cadastrar</button>
+								<a href="index.html" class="btn btn-lg btn-default">Cancelar</a>
+							</center>
+						</div>					
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
